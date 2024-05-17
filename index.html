@@ -227,7 +227,7 @@
 
                     <!-- per seat taka count area start -->
                     <div
-                        class="relative lg:h-[420px] w-full lg:w-[30%] flex flex-col justify-center items-center border-2 border-dashed mt-5 lg:mt-0">
+                        class="relative lg:h-[420px] w-full lg:w-[30%] flex flex-col justify-center items-center border-2 border-dashed lg:border-none mt-5 lg:mt-0">
                         <div class="p-5 lg:p-0 flex flex-col justify-center items-center text-center">
                             <img src="images/fare.png" alt="">
                             <h1 class="text-3xl font-bold mt-4 lg:mt-6"><span>550 </span>Taka</h1>
@@ -252,9 +252,257 @@
 
                 </div>
 
+                <!-- seat selection table container start -->
+                <section class="bg-white rounded-3xl grid lg:grid-cols-2 p-8 mt-6">
+                    <div class="col-left lg:border-dashed border-r-2 border-none lg:pr-8">
+                        <h1
+                            class="text-2xl font-semibold border-b-2 border-dashed pb-3 lg:pb-6 text-center lg:text-start">
+                            Select Your
+                            Seat</h1>
+                        <div class="flex justify-between py-5 border-b-2 border-dashed">
+                            <div class="flex justify-center items-center gap-1">
+                                <img src="images/seat-gray.png" alt="">
+                                <span class="text-[#0307127F] text-lg font-inter">Available</span>
+                            </div>
+
+                            <div class="flex justify-center items-center gap-1">
+                                <img src="images/seat-green-filled.png" alt="">
+                                <span class="text-green-500 text-lg font-inter">Selected</span>
+                            </div>
+                        </div>
+                        <div class="mt-6 flex justify-end">
+                            <button class="btn w-28">
+                                <img src="images/wheel.png" alt="">
+                            </button>
+                        </div>
+
+                        <div class="mt-6">
+                            <div>
+
+                                <div class="grid grid-rows-10 gap-y-6 font-inter">
+                                    <!-- ticket row-one start -->
+                                    <div class="grid custom-grid">
+                                        <button class="font-inter text-[#0307127F]">A</button>
+                                        <div class="grid grid-cols-2 gap-4 lg:gap-16 ">
+                                            <div class="grid grid-cols-2 gap-4 lg:gap-8 ">
+                                                <button class="btn text-[#0307127F]">A1</button>
+                                                <button class="btn text-[#0307127F]">A2</button>
+                                            </div>
+                                            <div class="grid grid-cols-2 gap-4 lg:gap-8">
+                                                <button class="btn text-[#0307127F]">A3</button>
+                                                <button class="btn text-[#0307127F]">A4</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ticket row-one end -->
+
+                                    <!-- ticket row-two start -->
+                                    <div class="grid custom-grid">
+                                        <button class="font-inter text-[#0307127F]">B</button>
+                                        <div class="grid grid-cols-2 gap-4 lg:gap-16">
+                                            <div class="grid grid-cols-2 gap-4 lg:gap-8">
+                                                <button class="btn text-[#0307127F]">B1</button>
+                                                <button class="btn text-[#0307127F]">B2</button>
+                                            </div>
+                                            <div class="grid grid-cols-2 gap-4 lg:gap-8">
+                                                <button class="btn text-[#0307127F]">B3</button>
+                                                <button class="btn text-[#0307127F]">B4</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ticket row-two end -->
+
+                                    <!-- ticket row-three start -->
+                                    <div class="grid custom-grid">
+                                        <button class="font-inter text-[#0307127F]">C</button>
+                                        <div class="grid grid-cols-2 gap-4 lg:gap-16">
+                                            <div class="grid grid-cols-2 gap-4 lg:gap-8">
+                                                <button class="btn text-[#0307127F]">C1</button>
+                                                <button class="btn text-[#0307127F]">C2</button>
+                                            </div>
+                                            <div class="grid grid-cols-2 gap-4 lg:gap-8">
+                                                <button class="btn text-[#0307127F]">C3</button>
+                                                <button class="btn text-[#0307127F]">C4</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ticket row-three end -->
+
+                                    <!-- ticket row-four start -->
+                                    <div class="grid custom-grid">
+                                        <button class="font-inter text-[#0307127F]">D</button>
+                                        <div class="grid grid-cols-2 gap-4 lg:gap-16">
+                                            <div class="grid grid-cols-2 gap-4 lg:gap-8">
+                                                <button class="btn text-[#0307127F]">D1</button>
+                                                <button class="btn text-[#0307127F]">D2</button>
+                                            </div>
+                                            <div class="grid grid-cols-2 gap-4 lg:gap-8">
+                                                <button class="btn text-[#0307127F]">D3</button>
+                                                <button class="btn text-[#0307127F]">D4</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ticket row-four end -->
+
+                                    <!-- ticket row-five start -->
+                                    <div class="grid custom-grid">
+                                        <button class="font-inter text-[#0307127F]">E</button>
+                                        <div class="grid grid-cols-2 gap-4 lg:gap-16">
+                                            <div class="grid grid-cols-2 gap-4 lg:gap-8">
+                                                <button class="btn text-[#0307127F]">E1</button>
+                                                <button class="btn text-[#0307127F]">E2</button>
+                                            </div>
+                                            <div class="grid grid-cols-2 gap-4 lg:gap-8">
+                                                <button class="btn text-[#0307127F]">E3</button>
+                                                <button class="btn text-[#0307127F]">E4</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ticket row-five end -->
+
+                                    <!-- ticket row-six start -->
+                                    <div class="grid custom-grid">
+                                        <button class="font-inter text-[#0307127F]">F</button>
+                                        <div class="grid grid-cols-2 gap-4 lg:gap-16">
+                                            <div class="grid grid-cols-2 gap-4 lg:gap-8">
+                                                <button class="btn text-[#0307127F]">F1</button>
+                                                <button class="btn text-[#0307127F]">F2</button>
+                                            </div>
+                                            <div class="grid grid-cols-2 gap-4 lg:gap-8">
+                                                <button class="btn text-[#0307127F]">F3</button>
+                                                <button class="btn text-[#0307127F]">F4</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ticket row-six end -->
+
+                                    <!-- ticket row-seven start -->
+                                    <div class="grid custom-grid">
+                                        <button class="font-inter text-[#0307127F]">G</button>
+                                        <div class="grid grid-cols-2 gap-4 lg:gap-16">
+                                            <div class="grid grid-cols-2 gap-4 lg:gap-8">
+                                                <button class="btn text-[#0307127F]">G1</button>
+                                                <button class="btn text-[#0307127F]">G2</button>
+                                            </div>
+                                            <div class="grid grid-cols-2 gap-4 lg:gap-8">
+                                                <button class="btn text-[#0307127F]">G3</button>
+                                                <button class="btn text-[#0307127F]">G4</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ticket row-seven end -->
+
+                                    <!-- ticket row-eight start -->
+                                    <div class="grid custom-grid">
+                                        <button class="font-inter text-[#0307127F]">H</button>
+                                        <div class="grid grid-cols-2 gap-4 lg:gap-16">
+                                            <div class="grid grid-cols-2 gap-4 lg:gap-8">
+                                                <button class="btn text-[#0307127F]">H1</button>
+                                                <button class="btn text-[#0307127F]">H2</button>
+                                            </div>
+                                            <div class="grid grid-cols-2 gap-4 lg:gap-8">
+                                                <button class="btn text-[#0307127F]">H3</button>
+                                                <button class="btn text-[#0307127F]">H4</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ticket row-eight end -->
+
+                                    <!-- ticket row-nine start -->
+                                    <div class="grid custom-grid">
+                                        <button class="font-inter text-[#0307127F]">I</button>
+                                        <div class="grid grid-cols-2 gap-4 lg:gap-16">
+                                            <div class="grid grid-cols-2 gap-4 lg:gap-8">
+                                                <button class="btn text-[#0307127F]">I1</button>
+                                                <button class="btn text-[#0307127F]">I2</button>
+                                            </div>
+                                            <div class="grid grid-cols-2 gap-4 lg:gap-8">
+                                                <button class="btn text-[#0307127F]">I3</button>
+                                                <button class="btn text-[#0307127F]">I4</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ticket row-nine end -->
+
+                                    <!-- ticket row-ten start -->
+                                    <div class="grid custom-grid">
+                                        <button class="font-inter text-[#0307127F]">J</button>
+                                        <div class="grid grid-cols-2 gap-4 lg:gap-16">
+                                            <div class="grid grid-cols-2 gap-4 lg:gap-8">
+                                                <button class="btn text-[#0307127F]">J1</button>
+                                                <button class="btn text-[#0307127F]">J2</button>
+                                            </div>
+                                            <div class="grid grid-cols-2 gap-4 lg:gap-8">
+                                                <button class="btn text-[#0307127F]">J3</button>
+                                                <button class="btn text-[#0307127F]">J4</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- ticket row-ten end -->
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-right mt-10 lg:mt-0 lg:pl-8">
+                        <h1
+                            class="text-2xl font-semibold border-b-2 border-dashed pb-3 lg:pb-6 text-center lg:text-center">
+                            Select Your
+                            Seat</h1>
+
+                        <div class="mt-4 lg:mt-6 rounded-[12px] bg-[#F7F8F8] p-8 font-inter">
+                            <div class="flex justify-between font-inter font-medium border-dashed border-b-2 pb-4">
+                                <span class="">
+                                    Seat
+                                    <div class="badge bg-green-500 text-white">2</div>
+                                </span>
+                                <span class="">
+                                    <h1>Class</h1>
+                                </span>
+                                <span class="">
+                                    <h1>Price</h1>
+                                </span>
+                            </div>
+
+                            <div class="flex justify-between font-inter border-b-2 py-4 text-[#03071299]">
+                                <span class="">
+                                    <h1>C2</h1>
+                                </span>
+                                <span class="Economy">
+                                    <h1>Economy</h1>
+                                </span>
+                                <span class="">
+                                    <h1>550</h1>
+                                </span>
+                            </div>
+                            <div class="flex justify-between font-medium mt-4">
+                                <h1>Total Price</h1>
+                                <h1>BDT 550</h1>
+                            </div>
+
+                            <div class="mt-4">
+                                <div class="join w-full">
+                                    <input class="input input-bordered join-item w-full" placeholder="Coupon" />
+                                    <button
+                                        class="btn join-item rounded-r-full bg-green-500 text-white hover:bg-green-600">Apply</button>
+                                </div>
+                            </div>
+
+                            <div class="flex justify-between font-medium mt-6">
+                                <h1>Grand Total</h1>
+                                <h1>BDT 550</h1>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <!-- seat selection table container end -->
             </div>
         </section>
         <!-- full reservation system container end -->
+
+
     </main>
 
     <footer>

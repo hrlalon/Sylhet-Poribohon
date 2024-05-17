@@ -11,3 +11,13 @@
 .coupon-devider-width {
     width: calc(100% - 24px);
 }
+
+.custom-grid {
+    display: grid;
+    grid-template-columns: 50px repeat(1, 1fr);
+}
+
+.custom-grid-two {
+    display: grid;
+    grid-template-columns: 700px repeat(1, 1fr);
+}
